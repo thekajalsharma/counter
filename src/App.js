@@ -24,10 +24,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {<Counter
+        <Counter
           state={this.state}
           onIncrement={this.incrementCounter}
-          onDecrement={this.decrementCounter} />}
+          onDecrement={this.decrementCounter} />
       </div>
     );
   }
